@@ -70,3 +70,11 @@ body {
     color: aliceblue;
     text-decoration: none;
 }
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+    .gambar, .biodata, .sosmed {
+        width: 100%;
+    }
+}
