@@ -9,9 +9,6 @@ body {
     justify-content: center;
 }
 .container {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     width: 80% ;
     background-color: #5f6f94 ;
     margin-bottom: 100px;
@@ -69,6 +66,7 @@ body {
     background-color: #97D2EC;
     color: aliceblue;
     text-decoration: none;
+    border-radius: 15px;
 }
 @media screen and (max-width: 800px) {
     body {
