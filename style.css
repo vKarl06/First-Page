@@ -1,0 +1,72 @@
+* {
+padding:0;
+margin: 0;
+box-sizing:border-box;  
+font-family: 'huntsecret' , sans-serif;  
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80% ;
+    background-color: #5f6f94 ;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    display: flex;
+    padding: 60px 50px;
+    align-items: center;
+
+}
+.gambar {
+    width: 40%;
+}
+.gambar img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.biodata {
+    width: 50%;
+    margin: 0px 30px;
+    color: #eef2e6 ;
+
+}
+.biodata h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.biodata h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.biodata h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.biodata h4 {
+    font-size: 17px;
+    margin-bottom: 10px ;
+}
+.biodata p {
+    text-align: justify;
+}
+.sosmed {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.sosmed a {
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    margin: 5px 0px;
+    background-color: #97D2EC;
+    color: aliceblue;
+    text-decoration: none;
+}
